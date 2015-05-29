@@ -10,11 +10,23 @@ Comparison of junit assertion libraries (assertj, hamcrest, fest, truth...)
 | AssertJ       | https://joel-costigliola.github.io/assertj/        |
 | Fest          | https://github.com/alexruiz/fest-assert-2.x/wiki   |
 | Hamcrest      | http://hamcrest.org/JavaHamcrest/                  |
-| Truth         | https://github.com/google/truth                    |
+| Truth         | http://google.github.io/truth/                     |
 
  
 
-# Syntax Comparison
+# Syntax & Failure messages comparison
+
+## Simple Equals
+
+| Library       | Syntax                                             | Failure Messages
+| ------------- | -------------------------------------------------- | ---------------
+| Junit         | `assertEquals(expected, actual)`                   |
+| AssertJ       | `assertThat(actual).isEqualTo(expected)`           |
+| Fest          | `assertThat(actual).isEqualTo(expected)`           |
+| Hamcrest      | `assertThat(actual, equalTo(expected))`            |
+| Truth         | `assertThat(actual).isEqualTo(expected)`           |
+
+## TODO
 TODO
 
 # Extensibility
