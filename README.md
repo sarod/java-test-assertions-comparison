@@ -7,10 +7,10 @@ Comparison of junit assertion libraries (assertj, hamcrest, fest, truth...)
 
 | Library       | Website                                            |
 | ------------- | -------------------------------------------------- |
-| AssertJ       | [https://joel-costigliola.github.io/assertj/]      |
-| Fest          | [https://github.com/alexruiz/fest-assert-2.x/wiki] |
-| Hamcrest      | [http://hamcrest.org/JavaHamcrest/]                |
-| Truth         | [https://github.com/google/truth]                  |
+| AssertJ       | https://joel-costigliola.github.io/assertj/        |
+| Fest          | https://github.com/alexruiz/fest-assert-2.x/wiki   |
+| Hamcrest      | http://hamcrest.org/JavaHamcrest/                  |
+| Truth         | https://github.com/google/truth                    |
 
  
 
